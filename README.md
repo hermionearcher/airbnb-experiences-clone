@@ -1,4 +1,6 @@
-# react-ls7hs6
+# AirBnB Clone
+
+Build in React, StackBlitz env.
 
 [Demo](https://react-ls7hs6.stackblitz.io)
 
