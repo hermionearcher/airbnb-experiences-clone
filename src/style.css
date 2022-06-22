@@ -10,7 +10,8 @@
 }
 .nav--logo {
   margin: 2vh;
-  max-width: 100px;
+  max-width: 30vh;
+  object-fit: contain;
 }
 .header {
   margin: 2vh 5vh;
@@ -19,7 +20,7 @@
 }
 .header--img {
   border-radius: 20px; 
-  max-width: 400px;
+  max-width: 800px;
   align-self: center;
 }
 .header--text {
@@ -47,12 +48,12 @@
   display: none;
 } */
 .gallery--card {
-  width: 30%;
+  width: 40vh;
+  max-height: 500px;
   margin: 10px;
-  display:inline-block;
+  display: inline-block;
   vertical-align: top;
   position: relative;
-
 }
 .gallery--textwrap {
   overflow-wrap: break-word;
@@ -68,12 +69,18 @@
 }
 .gallery--card--img {
   border-radius: 20px;
-  max-width: 100%;
-  object-fit: fill;
+  /* max-width: 100%;
+  object-fit: fill; */
+  float: left;
+  width: 40vh;
+  height: 50vh;
+  object-fit: cover;
   margin-top: 0;
+  margin-bottom: 10px;
 
 }
 .gallery--review {
+  border: solid transparent;
   display: flex;
   flex-wrap: nowrap;
   /* justify-content:space-between; */
