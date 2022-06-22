@@ -4,8 +4,7 @@ export const experiences = [
     rating: 5.0,
     numReviews: 6,
     price: 136,
-    image:
-      'https://media.istockphoto.com/photos/whos-going-to-break-the-tension-picture-id905523846?k=20&m=905523846&s=170667a&w=0&h=xK9gI6FZit8A95QXTmrFwQC7prUsABL6Iz81tWdkUcs=',
+    image: 'photo-01.png',
     available: false,
   },
   {
@@ -23,7 +22,7 @@ export const experiences = [
     price: 150,
     image:
       'https://cdn.stocksnap.io/img-thumbs/960w/smiling-woman_VTHPEAGBVR.jpg',
-    available: "",
+    available: '',
   },
   {
     title: 'Learn wedding photography',
